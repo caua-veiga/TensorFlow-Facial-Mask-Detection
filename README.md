@@ -10,7 +10,7 @@ In this README file, we briefly introduce the topics, make sure to read the comm
 ## What is Transfer Learning
 Transfer learning focuses on applying the knowledge gained while solving one problem into a different but related problem. From a practical view, that means that we will use an already-trained neural network to solve a new problem, instead of training it from scratch we will train just the last layers. 
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/Transfer Learning.png"
+<img src="read_img/Transfer Learning.png"
      alt="Markdown Monster icon"
      width="1024" 
      height="512"
@@ -24,7 +24,11 @@ Sometimes we don´t have a large enough dataset to properly train our neural net
 
 Data augmentation consists of techniques used to increase the dataset by slightly modifying the existing data (you can also create a synthetic dataset, but it is not in the scope of this project). The techniques consist of images transformations, such as geometric transformations, flipping, color modification, cropping, etc. 
 
-(INSERT EXAMPLE IMAGE HERE)
+<img src="read_img/data_aug.png"
+     alt="Markdown Monster icon"
+     width="" 
+     height="512"
+     style="vertical-align:middle;margin:0px 0px" />
 
 ## The datset and pre-processing pipeline
 
@@ -41,7 +45,7 @@ After we proceed to the training routine, with a total of 40 epochs, using Adam 
 
 Once the training is complete, we make predictions on the test set and evaluate our model performance:
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/Model Val.png"
+<img src="read_img/Model Val.png"
      alt="Markdown Monster icon"
      width="" 
      height="512"
@@ -56,7 +60,7 @@ We use the openCv ['haarcascade_frontalface'](https://github.com/opencv/opencv/t
 # Results
 A demonstration of the script working in real time!
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/IMG_8316.GIF"
+<img src="read_img/IMG_8316.GIF"
      alt="Markdown Monster icon"
      width="" 
      height="512"
