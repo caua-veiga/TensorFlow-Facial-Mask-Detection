@@ -41,7 +41,7 @@ After we proceed to the training routine, with a total of 40 epochs, using Adam 
 
 Once the training is complete, we make predictions on the test set and evaluate our model performance:
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/Model Val.png"
+<img src="read_img/Model Val.png"
      alt="Markdown Monster icon"
      width="" 
      height="512"
@@ -56,7 +56,7 @@ We use the openCv ['haarcascade_frontalface'](https://github.com/opencv/opencv/t
 # Results
 A demonstration of the script working in real time!
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/IMG_8316.GIF"
+<img src="read_img/IMG_8316.GIF"
      alt="Markdown Monster icon"
      width="" 
      height="512"
