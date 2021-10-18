@@ -10,7 +10,7 @@ In this README file, we briefly introduce the topics, make sure to read the comm
 ## What is Transfer Learning
 Transfer learning focuses on applying the knowledge gained while solving one problem into a different but related problem. From a practical view, that means that we will use an already-trained neural network to solve a new problem, instead of training it from scratch we will train just the last layers. 
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/Videos/Transfer Learning.png"
+<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/Transfer Learning.png"
      alt="Markdown Monster icon"
      width="1024" 
      height="512"
@@ -41,7 +41,7 @@ After we proceed to the training routine, with a total of 40 epochs, using Adam 
 
 Once the training is complete, we make predictions on the test set and evaluate our model performance:
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/Videos/Model Val.png"
+<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/Model Val.png"
      alt="Markdown Monster icon"
      width="" 
      height="512"
@@ -56,7 +56,7 @@ We use the openCv ['haarcascade_frontalface'](https://github.com/opencv/opencv/t
 # Results
 A demonstration of the script working in real time!
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/Videos/IMG_8316.GIF"
+<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/IMG_8316.GIF"
      alt="Markdown Monster icon"
      width="" 
      height="512"
