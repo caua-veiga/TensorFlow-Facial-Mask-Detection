@@ -10,7 +10,7 @@ In this README file, we briefly introduce the topics, make sure to read the comm
 ## What is Transfer Learning
 Transfer learning focuses on applying the knowledge gained while solving one problem into a different but related problem. From a practical view, that means that we will use an already-trained neural network to solve a new problem, instead of training it from scratch we will train just the last layers. 
 
-<img src="/Users/cauaveiga/Documents/Coding/Coursera AI Engineering/Mask Classifier/read_img/Transfer Learning.png"
+<img src="read_img/Transfer Learning.png"
      alt="Markdown Monster icon"
      width="1024" 
      height="512"
