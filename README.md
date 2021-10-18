@@ -57,7 +57,7 @@ To finish, we save the model so we can load it in the webcam app.
 
 We use the openCv ['haarcascade_frontalface'](https://github.com/opencv/opencv/tree/master/data/haarcascades)  Cascade Classifier to make facial detections, after that we pass the cropped image of the detected face through our model and predict if the person is using a facial mask or not.
 
-# Results
+## Results
 A demonstration of the script working in real time!
 
 <img src="read_img/IMG_8316.GIF"
@@ -68,3 +68,18 @@ A demonstration of the script working in real time!
 
 
 Notice that the confidence of the model is lower when the mask is on the chin, and when it is totally off or totally on is easier for the model to make a prediction.
+
+# Usage
+
+In this repositore we have uploaded all the necessary files to you train your own model, you can download them and follow the jupyter notebook steps if that is what you are looking for. 
+
+If what you want is just to have an working script to have some fun playing with your webcam, all you will need is the following files:
+
+
+* 'mask_detector_model' - Trainned model
+* 'haarcascade_frontalface_default.xml' - To run CV2 facial detection
+* 'mask_det.py' - Script that will run our model
+
+In addition to that, you have to make sure that all requirements are proper installed. (PUSH requirements.txt)
+
+Once you have all those files in the same directory, you just have to run the 'mask_det.py' script (you may have to give webcam permissions to your terminal).
