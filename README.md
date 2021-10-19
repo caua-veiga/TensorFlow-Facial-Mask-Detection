@@ -1,4 +1,13 @@
 # Webcam Mask Detection with Transfer Learning
+# Table of contents
+
+* 1. [Introduction](https://github.com/caua-veiga/TensorFlow-Facial-Mask-Detection#introduction)
+* 2. [What is Transfer Learning](https://github.com/caua-veiga/TensorFlow-Facial-Mask-Detection#what-is-transfer-learning)
+* 3. [What is Data Augmentation](https://github.com/caua-veiga/TensorFlow-Facial-Mask-Detection#what-is-data-augmentation)
+* 4. [The datset and pre-processing pipeline](https://github.com/caua-veiga/TensorFlow-Facial-Mask-Detection#the-datset-and-pre-processing-pipeline)
+* 5. [Training the Model](https://github.com/caua-veiga/TensorFlow-Facial-Mask-Detection#training-the-model)
+* 6. [Results](https://github.com/caua-veiga/TensorFlow-Facial-Mask-Detection#results)
+* 7. [Usage](https://github.com/caua-veiga/TensorFlow-Facial-Mask-Detection#usage)
 
 ## Introduction
 The goal of this project is to train a Convolutional Neural Network that detects if a person is using or not a facial mask. After that, we will create a python application that runs our model in real-time on the video provided by our webcam. 
