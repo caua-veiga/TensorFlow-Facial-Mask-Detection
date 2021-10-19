@@ -89,6 +89,6 @@ If what you want is just to have an working script to have some fun playing with
 * 'haarcascade_frontalface_default.xml' - To run CV2 facial detection
 * 'mask_det.py' - Script that will run our model
 
-In addition to that, you have to make sure that all requirements are proper installed. (PUSH requirements.txt)
+In addition to that, you have to make sure that all requirements are proper installed.
 
 Once you have all those files in the same directory, you just have to run the 'mask_det.py' script (you may have to give webcam permissions to your terminal).
